@@ -38,9 +38,9 @@ LDAP, SSH, OpenSSL, BIND9, Docker, GitLab, Apache, NGINX, Sendmail, Dovecot, NFS
 
 ---
 
-## Visuals
+## Network Diagram
 
-> _Coming soon: network diagram and system flow chart_
+![VM Infrastructure Diagram](./vm_infrastructure_diagram_dark.png)
 
 ---
 
