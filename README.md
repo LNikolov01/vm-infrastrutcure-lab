@@ -1,6 +1,6 @@
 # Private VM-Based Network Infrastructure
 
-A multi-OS virtual network project designed to simulate real-world enterprise infrastructure. Built from scratch using a collection of virtual machines running various UNIX-like operating systems. It utilizes centralized authentication, service deployment, logging, and cloud integration.
+A multi-OS virtual network project designed to simulate real-world enterprise infrastructure. Built from scratch using a collection of virtual machines (UTM/QEMU), running various UNIX-like operating systems. It includes essential services such as DNS, LDAP, NFS, Email, Web Hosting, and centralized configuration/logging, built across six operating systems.
 
 ---
 
@@ -34,7 +34,7 @@ A multi-OS virtual network project designed to simulate real-world enterprise in
 ## Technologies Used
 
 OpenBSD, FreeBSD, Rocky Linux, Ubuntu, OpenIndiana, Azure, Proxmox  
-LDAP, SSH, OpenSSL, BIND9, Docker, GitLab, Apache, NGINX, Sendmail, Dovecot, NFS, CUPS, Ansible
+LDAP, SSH, OpenSSL, BIND9, Docker, GitLab, NGINX, Sendmail, Dovecot, NFS, CUPS, Ansible
 
 ---
 
@@ -46,7 +46,11 @@ LDAP, SSH, OpenSSL, BIND9, Docker, GitLab, Apache, NGINX, Sendmail, Dovecot, NFS
 
 ## Folder Structure
 
-> _Coming soon: directory with config files, scripts, and screenshots_
+├── docs/                # Diagrams and documentation
+├── configs/             # Various config files
+├── ansible/             # Playbooks for setup/management
+├── services/            # Configs for DNS, NGINX, etc.
+└── README.md
 
 ---
 
