@@ -46,11 +46,13 @@ LDAP, SSH, OpenSSL, BIND9, Docker, GitLab, NGINX, Sendmail, Dovecot, NFS, CUPS, 
 
 ## Folder Structure
 
+```bash
 ├── docs/                # Diagrams and documentation
 ├── configs/             # Various config files
 ├── ansible/             # Playbooks for setup/management
 ├── services/            # Configs for DNS, NGINX, etc.
 └── README.md
+```
 
 ---
 
