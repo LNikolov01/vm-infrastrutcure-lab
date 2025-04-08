@@ -1,0 +1,22 @@
+$ORIGIN cs470.internal.
+$TTL 6h
+
+@	IN	SOA	cs470.internal. root.cs470.internal. (
+			3	; serial
+			1h	; refresh
+			30m	; retry
+			7d	; expiration
+			1h )	; minimum
+
+		NS	openbsd.cs470.internal.
+		MX	10	freebsd.cs470.internal.
+openbsd		IN	A	192.168.64.71
+openbsd 	IN 	MX 	10 	freebsd.cs470.internal.
+freebsd		IN	A	192.168.64.72
+rocky		IN	A	192.168.64.73
+ubuntu		IN	A	192.168.64.74
+solaris		IN	A	192.168.64.75
+proxmox		IN	A	192.168.64.76
+aix		IN	A	172.20.14.211
+aix-public	IN	CNAME	lacho.mooo.com.
+gitlab		IN	A	13.77.146.24

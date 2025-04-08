@@ -1,0 +1,16 @@
+$ORIGIN 64.168.192.in-addr.arpa.
+$TTL 6h
+@	IN	SOA	localhost. root.localhost. (
+			1	; serial
+			1h	; refresh
+			30m	; retry
+			7d	; expiration
+			1h )	; minimum
+
+	IN	NS	openbsd.cs470.internal.
+71	IN	PTR	openbsd.cs470.internal.
+72	IN	PTR	freebsd.cs470.internal.
+73	IN	PTR	rocky.cs470.internal.
+74	IN	PTR	ubuntu.cs470.internal.
+75	IN	PTR	solaris.cs470.internal.
+76	IN	PTR	proxmox.cs470.internal.
