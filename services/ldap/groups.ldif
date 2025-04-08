@@ -1,0 +1,12 @@
+dn: cn=lacho,ou=groups,dc=cs470,dc=internal
+objectClass: posixGroup
+gidNumber: 1001
+cn: lacho 
+memberuid: lacho
+
+dn: cn=sudoers,ou=groups,dc=cs470,dc=internal
+objectClass: posixGroup
+gidNumber: 420
+cn: sudoers
+memberuid: lacho 
+memberuid: failsafe 

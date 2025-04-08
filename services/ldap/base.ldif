@@ -1,0 +1,17 @@
+# cs470.internal
+dn: dc=cs470,dc=internal
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: CS470
+dc: cs470
+
+# users, cs470.internal
+dn: ou=users,dc=cs470,dc=internal
+objectClass: organizationalUnit
+ou: users
+
+# groups, cs470.internal
+dn: ou=groups,dc=cs470,dc=internal
+objectClass: organizationalUnit
+ou: groups

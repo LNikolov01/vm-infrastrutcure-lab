@@ -1,0 +1,10 @@
+dn: cn=lacho,ou=users,dc=cs470,dc=internal
+changetype: modify
+replace: cn
+cn: lacho
+-
+replace: uid
+uid: lacho
+-
+replace: gecos
+gecos: Lachezar Nikolov
